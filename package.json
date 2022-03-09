@@ -1,0 +1,45 @@
+{
+  "name": "@leismore/password",
+  "version": "1.0.0",
+  "description": "A class for password handling.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "mocha ./test/test.ts",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leismore/Password.git"
+  },
+  "keywords": [
+    "Leismore",
+    "LMOS",
+    "Password",
+    "Hash"
+  ],
+  "author": {
+    "name": "Kyle Chine",
+    "email": "kyle.chine@leismore.co",
+    "url": "https://kyle-chine.leismore.co"
+  },
+  "license": "AGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/leismore/Password/issues"
+  },
+  "homepage": "https://github.com/leismore/Password#readme",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^9.1.0",
+    "@types/node": "~16.11.26",
+    "chai": "^4.3.6",
+    "mocha": "^9.2.1",
+    "ts-node": "^10.6.0",
+    "typescript": "~4.5.5"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1"
+  }
+}
